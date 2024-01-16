@@ -13,7 +13,7 @@ function rollDice() {
   if (randomNumber1 > randomNumber2) {
     document.querySelector(".container h1").innerHTML = "🏆 Player 1 wins";
   } else if (randomNumber2 > randomNumber1) {
-    document.querySelector(".container h1").innerHTML = "🏆 Player 2 wins";
+    document.querySelector(".container h1").innerHTML = " Player 2 wins 🏆";
   } else {
     document.querySelector(".container h1").innerHTML = "Draw!";
   }
